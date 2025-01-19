@@ -1,0 +1,752 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+header{
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+
+}
+.logo {
+    font-size: 32px;
+    font-family: "Poppins", serif;
+    color: #fff;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto;
+}
+.logo:hover {
+
+    color: #fff;
+}
+.main_menu{
+
+}
+
+.main_menu ul{
+    
+}
+.main_menu ul li{
+
+}
+.main_menu ul li a{
+
+font-size: 20px;
+
+margin-right: 20px;
+
+font-family: "Poppins", serif;
+
+color: #fff !important;
+
+position: relative;
+}
+
+.main_menu ul li a::before{
+
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom:0;
+    width: 0;
+    height: 2px;
+    background-color: #ffc61a;
+    transition: .5s all ease-in-out;
+}
+.main_menu ul li a:hover::before{
+
+    width: 50%;
+
+}
+
+.main_menu ul li a::after{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 0;
+    height: 2px;
+    background-color: #ffc61a;
+    transition: .5s all ease-in-out;
+}
+.main_menu ul li a:hover::after{
+
+    width: 50%;
+
+}
+
+/* hero section start */
+
+.hero_section{
+
+    min-height: 88vh;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+}
+
+.hero_content{
+
+color: #fff;
+
+font-family: "Poppins", serif;
+}
+.hero_content h3{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.hero_content h2{
+
+font-size: 35px;
+
+font-weight: 600;
+
+text-transform: capitalize;
+
+line-height: 46px;
+}
+.hero_content p{
+
+font-size: 18px;
+
+line-height: 30px;
+
+text-transform: capitalize;
+
+font-family: 'Poppins', serif;
+}
+
+.btn_book{
+
+color: #000000;
+
+font-size: 18px;
+
+text-transform: capitalize;
+
+font-family: 'Poppins', serif;
+
+font-weight: 500;
+
+background-color: #ffc61a;
+
+padding: 10px 15px 10px 15px;
+
+transition: all .5s ease;
+
+}
+
+
+.btn_book:hover{
+    background-color: #1f1f1f;
+    color: #fff;
+    border: 1px solid;
+
+}
+
+/* hero img */
+
+.hero_img{    
+
+}
+
+.hero_img img{    
+
+}
+
+/* hero section end */
+
+/* about us section start  */
+
+.about{
+
+padding-top: 7em;
+
+padding-bottom: 5em;
+
+background-color: #ffffff;
+}
+
+.about_img{
+
+/* margin-top: 9px; */
+
+!;!importan;!i;!;
+}
+
+.about_img img{
+
+border-radius: 10px;
+
+height: 31em;
+
+margin-top: 46px;
+
+margin-left: 57px;
+}
+
+.about_content{
+
+margin-left: 2em;
+}
+
+.about_content h4{
+    
+text-transform: capitalize;
+    
+color: #ffc61a;
+    
+font-size: 25px;
+}
+
+.about_content h2{
+
+text-transform: capitalize;
+
+font-size: 35px;
+
+font-weight: 600;
+
+margin: 0;
+}
+
+.about_content p{
+    text-transform: capitalize;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.about_content ul{
+
+margin: 0;
+
+list-style: none;
+
+margin-left: -29px;
+}
+
+.about_content li{
+}
+.about_content i{
+
+margin-right: 10px;
+
+color: #ffc61a;
+
+font-size: 20px;
+}
+
+.btn_leran {
+    margin: 20px 38px;
+}
+
+/* about us section end  */
+
+
+.service_sectuion{
+
+padding-top: 5em;
+
+padding-bottom: 8em;
+
+background: #f3f3f3;
+}
+
+.service{
+
+margin-bottom: 6.2em;
+}
+
+.service h3{
+
+text-align: center;
+
+text-transform: uppercase;
+
+}
+
+.service span{
+
+display: block;
+
+width: 13%;
+
+margin: 0 auto;
+
+height: 2px;
+
+padding: 0;
+
+position: relative;
+
+}
+
+.service span::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e9b518;
+    transition: .3s all ease-in-out;
+}
+
+.service span::after{
+
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e9b518;
+    transition: .3s all ease-in-out;
+}
+
+.service_sectuion:hover .service span::before{
+    width: 48%;
+}
+
+.service_sectuion:hover .service span::after{
+    width: 48%;
+}
+
+
+.s_border
+{
+    border-right: 1px dotted;
+    border-color: #ffc61a;
+}
+
+.s_icon{
+
+width: 26px;
+
+height: 26px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+text-align: center;
+
+margin: auto;
+}
+
+.s_icon i{
+
+color: #ffc61a;
+
+font-size: 47px;
+
+margin-right: 8px;
+
+margin-bottom: 63px;
+}
+
+.s_content{
+    
+text-align: center;
+    
+line-height: 29px;
+    
+padding-right: 13px;
+}
+
+.s_content h2{
+
+text-align: center;
+
+text-transform: capitalize;
+
+font-size: 16px;
+
+font-weight: 600;
+}
+
+.s_content p{
+    
+}
+
+.last_content{
+
+border: none;
+}
+
+/* feature_section start */
+.feature_section{
+
+padding-top: 5em;
+
+padding-bottom: 5em;
+
+background: #1f1f1f;
+}
+
+.f_content{
+
+margin-bottom: 75px;
+
+}
+
+.f_content span{
+
+display: block;
+
+margin: 0 auto;
+
+width: 13%;
+
+height: 2px;
+
+position: relative;
+}
+
+.f_content span::before{
+
+    content: '';
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 0;
+
+    height: 2px;
+
+    background-color: #e9b518;
+
+    transition: .3s all ease-in-out;
+
+}
+
+.f_content span::after{
+
+    content: '';
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 0;
+
+    width: 0;
+
+    height: 2px;
+
+    background-color: #e9b518;
+
+    transition: .3s all ease-in-out;
+
+}
+
+.feature_section:hover .f_content span::before{
+
+    width: 48%;
+}
+
+.feature_section:hover .f_content span::after{
+
+    width: 48%;
+}
+
+.f_content h2{
+    text-transform: uppercase;
+    word-spacing: 6px;
+    margin-bottom: 8px;
+    color: #ffc61a;
+}
+
+.f_service{
+
+text-align: center;
+
+border-right: 1px dotted #ffc61a;
+}
+
+.f_icon{
+
+width: 30px;
+
+height: 30px;
+
+margin: 0 auto;
+
+font-size: 50px;
+
+color: #e9b518;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+
+.f_icon i{
+
+}
+
+.features_content{
+
+margin-top: 2em;
+
+padding: 11px 10px;
+
+color: #fff;
+}
+
+.features_content h2{
+
+font-size: 29px;
+
+text-transform: capitalize;
+}
+
+.features_content p{
+    
+font-size: 16px;
+    
+line-height: 20px;
+    
+margin-top: 15px;
+}
+
+/* feature_section end */
+
+/* contact us strat */
+
+.contact_us{
+
+padding-top: 4em;
+
+padding-bottom: 8em;
+
+background: #f3f3f3;
+}
+.contact_us h2{
+    text-transform: uppercase;
+    margin-top: 29px;
+}
+
+.f_about{
+
+}
+
+.f_about h2{
+
+text-transform: capitalize;
+
+font-size: 34px;
+}
+
+.f_about p{
+
+}
+
+.icon_box{
+
+}
+
+.icon_box i{
+
+margin-right: 20px;
+
+font-size: 24px;
+
+margin-top: 10px;
+}
+
+.contact{
+
+}
+
+.main_con span{
+
+display: block;
+
+width: 13%;
+
+height: 2px;
+
+margin: 0 auto;
+
+/* background-color: red; */
+
+position: relative;
+}
+
+.main_con span::before{
+
+
+    content: '';
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 0;
+
+    height: 2px;
+
+    background-color: #e9b518;
+
+    transition: .3s all ease-in-out;
+
+}
+
+.main_con span::after{
+
+
+    content: '';
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 0;
+
+    width: 0;
+
+    height: 2px;
+
+    background-color: #e9b518;
+
+    transition: .3s all ease-in-out;
+
+}
+
+.contact_us:hover .main_con span::before{
+
+    width: 48%;
+}
+
+.contact_us:hover .main_con span::after{
+
+    width: 48%;
+}
+
+.contact h2{
+
+text-transform: capitalize;
+
+font-size: 33px;
+}
+
+.contact_u address{
+
+}
+
+.number{
+
+}
+
+.number span{
+
+}
+
+.news_later{
+
+text-transform: capitalize;
+
+margin-top: 22px;
+}
+
+.news_later h3{
+    
+margin-bottom: 22px;
+    
+text-transform: capitalize;
+    
+font-size: 33px;
+}
+
+.news_later p{
+
+margin-bottom: 24px;
+}
+
+.email{
+
+border: 1px solid;
+}
+
+.f_input{
+
+outline: none;
+
+padding: 8px 0 9px 15px;
+
+position: relative;
+
+border: none;
+
+background: #f3f3f3;
+}
+
+.btn_submit {
+    padding: 9px 22px;
+    background: #ffc61a;
+    color: #fff;
+    position: absolute;
+    right: 7em !important;
+    margin: -2px 0px !important;
+    border-radius: 0;
+    border: 1px solid #ffc61a;
+}
+
+.btn_submit:hover{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+/* contact us end */
+
+/* footer section start */
+
+.footer_section{
+
+background: #1f1f1f;
+
+padding-top: 2em;
+
+padding-bottom: 2em;
+}
+
+
+.copy h3{
+    
+text-transform: capitalize;
+    
+color: #fff;
+
+margin: 0;
+}
+
+.copy h3 span{
+
+color: #ffc61a;
+
+}
+
+.copy a{
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+/* footer section end */
