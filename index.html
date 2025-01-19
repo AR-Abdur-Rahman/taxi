@@ -33,25 +33,27 @@
                   <a class="navbar-brand logo" href="index.html">
                     HELLO TAXI
                 </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_bar_support" aria-controls="menu_bar_support" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse main_menu" id="menu_bar_support">
+                <button class="navbar-toggler navbar_icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar_icon">
+                    <i class="fa-solid fa-bars"></i>
+                  </span>
+                </button>
+                  <div class="collapse navbar-collapse main_menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link p-0" aria-current="page" href="#">Home</a>
+                        <a class="nav-link p-0" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link p-0" aria-current="page" href="#">About</a>
+                        <a class="nav-link p-0" aria-current="page" href="#about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link p-0" aria-current="page" href="#">Service</a>
+                        <a class="nav-link p-0" aria-current="page" href="#service">Service</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link p-0" aria-current="page" href="#">Feature</a>
+                        <a class="nav-link p-0" aria-current="page" href="#feature">Feature</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link p-0" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link p-0" aria-current="page" href="#contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -62,7 +64,41 @@
     <!-- header section end -->
 
     <!-- hero section strat -->
-      <section  class="hero_section">
+      <section  class="hero_section owl-carousel pt-2" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5">
+                <div class="hero_content">
+                  <h3>Welcome to Hello-Taxi</h3>
+                  <h2>Book Your Taxi From Anywhere today!</h2>
+                  <p>We are available 24 hours throughout the year. All of our drivers are highly trained and certified to maintain the premier standards for the passengers.</p>
+                  <button type="button" class="btn btn_book">Book Now</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5">
+                <div class="hero_img">
+                  <img src="images/car-1.png" alt="car" class="img-fluid">
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5">
+                <div class="hero_content">
+                  <h3>Welcome to Hello-Taxi</h3>
+                  <h2>Book Your Taxi From Anywhere today!</h2>
+                  <p>We are available 24 hours throughout the year. All of our drivers are highly trained and certified to maintain the premier standards for the passengers.</p>
+                  <button type="button" class="btn btn_book">Book Now</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5">
+                <div class="hero_img">
+                  <img src="images/car-1.png" alt="car" class="img-fluid">
+                </div>
+            </div>
+          </div>
+        </div>
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-5">
@@ -84,15 +120,15 @@
     <!-- hero section end -->
 
     <!-- about us section -->
-     <section class="about">
+     <section class="about" id="about">
       <div class="container">
-        <div class="owl-carousel">
-          <div class="slider">
+        <div class="row">
+          <div class="col-lg-6 col-md-6" data-aos="zoom-out-right">
             <div class="about_img">
               <img src="images/about-1-1.jpg" alt="image" class="img-fluid">
             </div>
           </div>
-          <div class="slider">
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="3000">
             <div class="about_content">
               <h4>About us</h4>
               <h2>Hello-Taxi is the name of Reliability.</h2>
@@ -112,7 +148,7 @@
 
     <!-- our service sectuion start-->
 
-    <section class="service_sectuion">
+    <section class="service_sectuion" id="service">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 text-center">
@@ -122,7 +158,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="3000">
           <div class="col-lg-3 col-md-3 s_border">
             <div class="s_icon">
               <i class="fa-solid fa-plane-departure"></i>
@@ -175,7 +211,7 @@
 
     <!-- feature section start -->
 
-    <section class="feature_section">
+    <section class="feature_section" id="feature">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 text-center">
@@ -185,7 +221,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="3000">
           <div class="col-lg-4 col-md-4">
             <div class="f_service">
               <div class="f_icon">
@@ -228,7 +264,7 @@
 
      <!-- contact us section start -->
 
-     <section class="contact_us">
+     <section class="contact_us" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 text-center">
@@ -238,7 +274,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" data-aos="fade-up" data-aos-duration="3000">
           <div class="col-lg-4 col-md-4">
             <div class="f_about">
               <h2>About Us</h2>
@@ -299,14 +335,29 @@
      <!-- footer section end -->
 
     <script src="js/jquery.js"></script>
+    <!-- bootstrap -->
+     <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- aos js -->
+     <script src="vendor/aos/dist/aos.js"></script>
     <!-- owl carousel -->
     <script src="js/owl.carousel.min.js"></script>
     <script>
       $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
+        $(".hero_section").owlCarousel({
+
+          items:1,
+          loop:true,
+          dots:true,
+          autoplay:true,
+          autoplayTimeout:2000,
+          smartSpeed:300
           
         });
       });
+    </script>
+
+    <script>
+      AOS.init();
     </script>
 </body>
 </html>
